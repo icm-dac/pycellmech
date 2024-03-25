@@ -1,6 +1,5 @@
 <div align="left">
-  <img width="45%" src="/figures/pycellmech_logo_1.png" alt="WSI3D Logo">
-  <p><em>Putting together the puzzle of cancer therapy one piece at a time.</em></p>
+  <img width="15%" src="/figures/pycellmech_logo_1.png" alt="WSI3D Logo">
 </div>
 
 # PyCellMech
