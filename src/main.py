@@ -177,7 +177,6 @@ def main():
     row_titles = ['One-Dimensional \nShape Features', 'Geometric Shape \nFeatures', 'Polygonal\n Approximations']
 
     # Set the position for the row titles
-    # Adjust these values to center the titles above your rows of subplots
     row_title_positions = [(-1, 0.25), (-1, 0.25), (-1, 0.25)]  # (x, y) for each title
 
     # Set the row titles
