@@ -7,13 +7,6 @@ Created: 22 FEB 2024
 Last Modified: 07 APR 2024
 Modification Author: Janan ARSLAN
 
-Description:
-    A brief description of what the script or module does. This can include information about the 
-    methods implemented, the data processed, or the problem solved by the code. 
-
-Additional Notes:
-    Any additional notes about the code, usage instructions, dependencies, or acknowledgments.
-
 """
 
 
