@@ -173,9 +173,9 @@ def plot_features(binary_image, contour, one_d_features, geom_features, poly_fea
     plt.close(fig)
 
 def main():
-    folder_path = '/Users/janan.arslan/Documents/Violetta/test_masks'
-    csv_file_path = '/Users/janan.arslan/Documents/Violetta/shape_features_2.csv'
-    output_folder = '/Users/janan.arslan/Documents/Violetta/plots_2'
+    folder_path = '/path/to/binarized/images'
+    csv_file_path = '/path/to/save/shape_features.csv'
+    output_folder = '/path/to/save/feature/maps'
 
     all_features = []
 
