@@ -46,7 +46,6 @@ def calculate_tangent_vectors(contour):
 def calculate_perpendicular_points(tangent_vectors, contour):
     """
     Calculate points perpendicular to each point on a contour. 
-    This function is placeholder and needs proper implementation.
 
     Args:
         tangent_vectors: Array of tangent vectors for each point in the contour.
@@ -305,7 +304,7 @@ def get_one_dimensional_features(contour, cx, cy):
     # Tangent Vector Calculations
     tangent_vectors = calculate_tangent_vectors(contour_array)
 
-    # CLF Caclulations
+    # CLF Calculations
     clf_values = calculate_clf(contour_array, tangent_vectors)
 
     # TAR Calculations
