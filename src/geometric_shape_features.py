@@ -4,7 +4,7 @@ File: <geometric_shape_features.py>
 Author: Janan ARSLAN (janan.arslan@icm-institute.org)
 Institut du Cerveau - Data Analysis Core (DAC) Platform
 Created: 22 FEB 2024
-Last Modified: 07 APR 2024
+Last Modified: 08 APR 2024
 Modification Author: Janan ARSLAN
 
 """
@@ -58,7 +58,7 @@ def calculate_triangle_area(p0, p1, c):
 def calculate_pq(contour):
     """
     Calculate the sums of squared x-coordinates (p) and product of x and y coordinates (q)
-    of a contour. Useful for certain geometric analyses.
+    of a contour.
 
     Args:
         contour: A 2D array of points defining the contour.
