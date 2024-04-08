@@ -14,7 +14,7 @@ pycellmech is designed to extract appropriate shape features which can
 be used to extrapolated how the shape of objects in medical studies can
 be used to elucidate the mechanics of the disease and/or its progression.
 
-Input for pycellmech is current binarized images. The images can contain one
+Input for pycellmech is currently binarized images. The images can contain one
 or multiple regions of interest. Features will be extracted for all contours
 within the image and saved as a CSV file. For the visualization of these features,
 the largest contour from each image is selected and all features are visualized according
