@@ -4,7 +4,7 @@ File: <polygonal_shape_features.py>
 Author: Janan ARSLAN (janan.arslan@icm-institute.org)
 Institut du Cerveau - Data Analysis Core (DAC) Platform
 Created: 22 FEB 2024
-Last Modified: 07 APR 2024
+Last Modified: 08 APR 2024
 Modification Author: Janan ARSLAN
 
 """
@@ -43,9 +43,7 @@ def distance_to_segment(point, start, end):
 
 def distance_threshold_method(contour, threshold):
     """
-    Simplify a contour based on a distance threshold method. This method segments
-    a contour into line segments such that any point in a segment is within a 
-    specified distance threshold from the line segment defined by the segment's endpoints.
+    Simplify a contour based on a distance threshold method.
 
     Args:
         contour (list of np.array): The contour to be simplified.
@@ -96,8 +94,7 @@ def calculate_turn_angle(p1, p2, p3):
 
 def calculate_significance_measure(L1, L2, total_length):
     """
-    Calculate the significance measure of a vertex in a polygon. This measure 
-    is based on the turn angle at the vertex and the lengths of adjacent segments.
+    Calculate the significance measure of a vertex in a polygon. 
 
     Args:
         L1 (tuple of np.array): The first line segment (as a pair of points).
@@ -155,9 +152,7 @@ def polygon_evolution_by_vertex_deletion(contour, threshold):
 
 def splitting_method(contour, error_tolerance):
     """
-    Apply the Splitting Method to simplify a contour. This recursive method divides the contour 
-    into segments, ensuring that all points of a segment are within a specified error tolerance 
-    from the line segment connecting the segment's endpoints.
+    Apply the Splitting Method to simplify a contour.
 
     Args:
         contour (list of np.array): The contour to be simplified.
@@ -196,8 +191,6 @@ def splitting_method(contour, error_tolerance):
 def calculate_det(p, q, r):
     """
     Calculate the determinant of a 3x3 matrix formed by three points.
-    This determinant is useful for determining the orientation of the turn 
-    formed by the three points.
 
     Args:
         p, q, r (np.array): The points used to form the 3x3 matrix.
@@ -213,7 +206,6 @@ def calculate_det(p, q, r):
 def is_convex(p, q, r):
     """
     Determine if the turn from point p to point r via point q is convex.
-    This is based on the sign of the determinant calculated from these points.
 
     Args:
         p, q, r (np.array): The points forming the turn.
@@ -300,9 +292,7 @@ def find_mirrors(contour, labels):
 
 def mpp_algorithm(vertices, mirrors, is_convex):
     """
-    Implementation of the MPP algorithm for polygon simplification.
-    It selects vertices based on their convexity and mirroring, 
-    forming a simplified Minimum Perimeter Polygon (MPP).
+    The Minimum Perimeter Polygon (MPP) algorithm.
 
     Args:
         vertices (list of np.array): The original vertices of the polygon.
@@ -494,7 +484,6 @@ def plot_KMeans(ax, contour, cluster_centers, line_segments, labels):
 def get_polyognal_shape_features(contour, cx, cy, binary_image_path):
 
     # Initialize lists
-    all_contour_features = []
     dtm = []
     pevd = []
     sm = []
