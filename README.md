@@ -130,3 +130,17 @@ MPP is the polygon with the smallest possible perimeter that can enclose a given
 *K-Means Method*
 
 KMeans clusters points on the shape into a specified number of groups based on their proximity.
+
+
+## References
+
+The PyCellMech package was inspired by the below works. The package will be continually updated based
+on the latest research developments. 
+
+*P.-Y. Yin. Pattern Recognition Techniques, Technology and Applications. InTech, November
+2008. ISBN 9789537619244. doi: 10.5772/90. URL http://dx.doi.org/10.5772/90.*
+
+*J. Chaki and N. Dey. A Beginners Guide to Image Shape Feature Extraction Techniques.
+Taylor Francis Group, 2019. ISBN 9781000034301. doi: 10.5772/90. URL https://ebookcentral.proquest.com/lib/unimelb/detail.action?docID=5839964.*
+
+
