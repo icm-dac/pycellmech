@@ -45,3 +45,88 @@ file, and change the following settings (located on lines 176-178)::
 
 Feature visualization maps select the largest ROI and superimpose the extracted features on the ROI. Thus, this package provides quantitative and qualitative assessments. 
 
+
+## Shape Features
+
+The current iteration of PyCellMech involves three shape-based feature classes: 
+
+    - One-dimensional function shape features
+    - Geometric Shape Features
+    - Polygonal Approximation Shape Features
+
+These feature classes will continue to be built upon in future iterations. A summary of 
+these feature descriptions are found below. 
+
+### One-dimensional function shape features
+
+*Complex Coordinate*
+
+A complex coordinate function derives a complex number from a point on an object's contour.
+
+*Centroid Distance Function (CDF)*
+
+CDF the distance from the centroid of an object to points on its boundary, providing a way to describe the shape's geometry relative to its center.
+
+*Area Function (AF)*
+
+AF quantifies the total surface area enclosed by the boundaries of the shape.
+
+*Triange Area Representation (TAR)*
+
+TAR calculates the area of triangles formed within or around the shape.
+
+*Chord Length Function (CLF)*
+
+CLF measures the distances between pairs of points on the shape's boundary.
+
+### Geometric Shape Features
+
+*Axis Minimum Inertia (AMI)*
+
+AMI identifies the axis along which the shape exhibits the least resistance to rotational motion.
+
+*Average Bending Energy (ABE)*
+
+ABE quantifies the mean amount of effort required to deform the shape.
+
+*Eccentricity*
+
+Eccentricity describes the degree to which a shape deviates from being circular.
+
+*Minimum Bounding Rectangle (MBR)*
+
+MBR represents the smallest rectangle that entirely encloses the shape, representing its rectilinear approximation. 
+
+*Circularity Ratio (CR)*
+
+CR compares the area of the shape to the area of a circle with the same perimeter.
+
+*Ellipse Variance and Moment Invariants (EM and EV)*
+
+EV measures the deviation of a shape from an elliptical form, and EM quantifies shape characteristics that remain constant under transformations (e.g., rotation, scaling, and translation).
+
+*Solidity*
+
+Solidity calculates the ratio of the shape's area to the area of its convex hull.
+
+### Polygonal Approximation Shape Features
+
+*Distance Threshold Method (DTM)*
+
+DTM  involves setting a specific distance limit to differentiate between relevant and irrelevant points.
+
+*Polygon Evolution by Vertex Deletion (PEVD)*
+
+PEVD is a process where vertices are incrementally removed from a polygonal shape to simplify its structure while trying to preserve its overall form and characteristics.
+
+*Splitting Method (SM)*
+
+SM involves dividing a shape into smaller, manageable segments or components.
+
+*Minimum Perimeter Polygon (MPP)*
+
+MPP is the polygon with the smallest possible perimeter that can enclose a given shape.
+
+*K-Means Method*
+
+KMeans clusters points on the shape into a specified number of groups based on their proximity.
