@@ -10,3 +10,17 @@ PyCellMech is designed to understand how shapes impact our understanding of medi
 
 This package currently begins by introducing some preliminary shape-based analyses, with focus on geometric, polygonal and one-dimensional shape features.
 
+
+## Requirements
+
+Packages used in PyCellMech include:
+
+```
+    matplotlib
+    numpy
+    math
+    opencv-python
+    pandas
+    scikit-learn
+
+```
