@@ -45,6 +45,8 @@ file, and change the following settings (located on lines 176-178)::
 
 Feature visualization maps select the largest ROI and superimpose the extracted features on the ROI. Thus, this package provides quantitative and qualitative assessments. 
 
+A handful of samples from the Kvasir dataset have been included in this repository for illustrative purposes. 
+
 
 ## Shape Features
 
@@ -143,4 +145,11 @@ on the latest research developments.
 *J. Chaki and N. Dey. A Beginners Guide to Image Shape Feature Extraction Techniques.
 Taylor Francis Group, 2019. ISBN 9781000034301. doi: 10.5772/90.*
 
+Kvasir Dataset. 
+*Konstantin Pogorelov, Kristin Ranheim Randel, Carsten Griwodz, Sigrun Losada Eskeland,
+Thomas de Lange, Dag Johansen, Concetto Spampinato, Duc-Tien Dang-Nguyen, Math-
+ias Lux, Peter Thelin Schmidt, Michael Riegler, and P ̊al Halvorsen. Kvasir: A multi-class
+image dataset for computer aided gastrointestinal disease detection. In Proceedings of the
+8th ACM on Multimedia Systems Conference, MMSys’17, pages 164–169, New York, NY,
+USA, 2017. ACM. ISBN 978-1-4503-5002-0. doi: 10.1145/3083187.3083212.*
 
