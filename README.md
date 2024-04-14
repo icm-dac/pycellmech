@@ -142,7 +142,7 @@ on the latest research developments.
 ```
 P.-Y. Yin. Pattern Recognition Techniques, Technology and Applications. InTech, November
 2008. ISBN 9789537619244. doi: 10.5772/90.
-``
+```
 
 ```
 J. Chaki and N. Dey. A Beginners Guide to Image Shape Feature Extraction Techniques.
