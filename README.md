@@ -142,7 +142,7 @@ on the latest research developments.
 ```
 P.-Y. Yin. Pattern Recognition Techniques, Technology and Applications. InTech, November
 2008. ISBN 9789537619244. doi: 10.5772/90.
-```
+``
 
 ```
 J. Chaki and N. Dey. A Beginners Guide to Image Shape Feature Extraction Techniques.
@@ -153,7 +153,7 @@ Kvasir Dataset
 ```
 Konstantin Pogorelov, Kristin Ranheim Randel, Carsten Griwodz, Sigrun Losada Eskeland,
 Thomas de Lange, Dag Johansen, Concetto Spampinato, Duc-Tien Dang-Nguyen, Math-
-ias Lux, Peter Thelin Schmidt, Michael Riegler, and P ̊al Halvorsen. Kvasir: A multi-class
+ias Lux, Peter Thelin Schmidt, Michael Riegler, and Pal Halvorsen. Kvasir: A multi-class
 image dataset for computer aided gastrointestinal disease detection. In Proceedings of the
 8th ACM on Multimedia Systems Conference, MMSys’17, pages 164–169, New York, NY,
 USA, 2017. ACM. ISBN 978-1-4503-5002-0. doi: 10.1145/3083187.3083212.
