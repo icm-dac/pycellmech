@@ -45,7 +45,7 @@ file, and change the following settings (located on lines 176-178)::
 
 Feature visualization maps select the largest ROI and superimpose the extracted features on the ROI. Thus, this package provides quantitative and qualitative assessments. 
 
-A handful of samples from the Kvasir dataset have been included in this repository for illustrative purposes. 
+A handful of samples from the Kvasir dataset have been included in this repository for testing. 
 
 
 ## Shape Features
