@@ -160,6 +160,7 @@ USA, 2017. ACM. ISBN 978-1-4503-5002-0. doi: 10.1145/3083187.3083212.
 ```
 
 ## Citation
+```
 @misc{
 arslan2024pycellmech,
 title={PyCellMech: A shape-based feature extraction pipeline for elucidating biological differences between disease states},
@@ -167,3 +168,4 @@ author={Janan Arslan and Henri Chhoa and Ines Khemir and Romain Valabregue and S
 year={2024},
 url={https://openreview.net/forum?id=VzvRnPMDhX}
 }
+```
