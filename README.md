@@ -17,7 +17,6 @@ This project is licensed under the Creative Commons Attribution-NonCommercial 4.
 ## Installation
 ```
 pip install pycellmech
-
 ```
 
 ## Requirements
