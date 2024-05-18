@@ -19,20 +19,6 @@ This project is licensed under the Creative Commons Attribution-NonCommercial 4.
 pip install pycellmech
 ```
 
-## Requirements
-
-Packages used in PyCellMech include:
-
-```
-    matplotlib
-    numpy
-    math
-    opencv-python
-    pandas
-    scikit-learn
-
-```
-
 ## Usage
 
 PyCellMech takes binarized masks as its input. There are no restrictions in terms of 
@@ -44,7 +30,6 @@ Once you have your input images ready, use the following command line:
 
 ```
 pycellmech --folder_path /path/to/input --csv_file_path /path/to/saving/csv --output_folder /path/to/saving/output/images
-
 ```
 
 ``csv_file_path`` will reflect the location you would like to save the CSV file, and ``output_folder`` is where the feature visualization map for every image processed will be saved. 
