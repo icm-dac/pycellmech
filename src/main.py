@@ -3,10 +3,10 @@
  Title:                   PYCELLMECH
  Creating Author:         Janan Arslan
  Creation Date:           22 FEB 2024
- Latest Modification:     08 APR 2024
+ Latest Modification:     17 MAY 2024
  Modification Author:     Janan Arslan
  E-mail:                  janan.arslan@icm-institute.org
- Version:                 2.0
+ Version:                 2.1
 ======================================================================
 
 
@@ -14,7 +14,7 @@ pycellmech is designed to extract appropriate shape features which can
 be used to extrapolated how the shape of objects in medical studies can
 be used to elucidate the mechanics of the disease and/or its progression.
 
-Input for pycellmech is currently binarized images. The images can contain one
+Input for pycellmech is current binarized images. The images can contain one
 or multiple regions of interest. Features will be extracted for all contours
 within the image and saved as a CSV file. For the visualization of these features,
 the largest contour from each image is selected and all features are visualized according
@@ -27,6 +27,7 @@ import cv2
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+import argparse
 
 from one_dimensional_features import get_one_dimensional_features, plot_original_contour, plot_centroid, plot_complex_coordinates, plot_cdf, plot_area_function, plot_clf, plot_tar
 from geometric_shape_features import get_geometric_shape_features, plot_AMI, plot_ABE, plot_eccentricity, plot_mbr, plot_circularity_ratio, plot_ellipse_features, plot_solidity
@@ -173,9 +174,16 @@ def plot_features(binary_image, contour, one_d_features, geom_features, poly_fea
     plt.close(fig)
 
 def main():
-    folder_path = '/path/to/binarized/images'
-    csv_file_path = '/path/to/save/shape_features.csv'
-    output_folder = '/path/to/save/feature/maps'
+    parser = argparse.ArgumentParser(description='Process some images.')
+    parser.add_argument('--folder_path', type=str, help='Path to the folder containing binarized images')
+    parser.add_argument('--csv_file_path', type=str, help='Path to save the shape features CSV file')
+    parser.add_argument('--output_folder', type=str, help='Path to save the feature maps')
+
+    args = parser.parse_args()
+
+    folder_path = args.folder_path
+    csv_file_path = args.csv_file_path
+    output_folder = args.output_folder
 
     all_features = []
 
