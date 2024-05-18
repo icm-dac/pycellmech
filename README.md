@@ -14,6 +14,11 @@ This package currently begins by introducing some preliminary shape-based analys
 
 This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International Public License. See the [LICENSE](./LICENSE) file for details.
 
+## Installation
+```
+pip install pycellmech
+
+```
 
 ## Requirements
 
@@ -36,13 +41,11 @@ regions of interest (ROI), as the method will iterate through each ROI
 within each binarized image. Whether you have a single image or multiple images to process,
 binarized masks should be contained within a folder. 
 
-Once you have your input images ready, download the code, head to the ``main.py`` 
-file, and change the following settings (located on lines 176-178)::
+Once you have your input images ready, use the following command line:
 
 ```
-    folder_path = '/path/to/binarized/images'
-    csv_file_path = '/path/to/save/shape_features.csv'
-    output_folder = '/path/to/save/feature/maps'
+pycellmech --folder_path /path/to/input --csv_file_path /path/to/saving/csv --output_folder /path/to/saving/output/images
+
 ```
 
 ``csv_file_path`` will reflect the location you would like to save the CSV file, and ``output_folder`` is where the feature visualization map for every image processed will be saved. 
