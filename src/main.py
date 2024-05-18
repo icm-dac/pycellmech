@@ -32,7 +32,7 @@ import argparse
 from one_dimensional_features import get_one_dimensional_features, plot_original_contour, plot_centroid, plot_complex_coordinates, plot_cdf, plot_area_function, plot_clf, plot_tar
 from geometric_shape_features import get_geometric_shape_features, plot_AMI, plot_ABE, plot_eccentricity, plot_mbr, plot_circularity_ratio, plot_ellipse_features, plot_solidity
 from polygonal_shape_features import get_polyognal_shape_features, plot_DTM, plot_PEVD, plot_SM, plot_MPP, plot_KMeans
-from spatial_shape_features import get_spatial_shape_features
+
 
 # Preprocess image and find contours
 def preprocess_image(binary_image_path):
