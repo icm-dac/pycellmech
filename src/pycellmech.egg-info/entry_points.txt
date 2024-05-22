@@ -1,0 +1,5 @@
+[console_scripts]
+pycellmech = pycellmech.cli:main
+pycellmech_create_label = pycellmech_create_label.cli:main
+pycellmech_nifti = pycellmech_nifti.cli:main
+
