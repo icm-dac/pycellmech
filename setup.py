@@ -9,7 +9,7 @@ with open(readme_path, encoding='utf-8') as f:
 
 setup(
     name="pycellmech",
-    version="2.1.8",
+    version="2.1.12",
     author="Janan Arslan",
     author_email="janan.arslan@icm-institute.org",
     description="A shape-based feature extractor for use in biological and medical studies.",
@@ -29,12 +29,16 @@ setup(
         "numpy",
         "opencv-python",
         "pandas",
-        "scikit-learn"
+        "scikit-learn",
+        "SimpleITK",
+        "scikit-image"
     ],
     include_package_data=True,
     entry_points={
         'console_scripts': [
             'pycellmech=pycellmech.cli:main',
+            'pycellmech_create_label=pycellmech_create_label.cli:main',
+            'pycellmech_nifti=pycellmech_nifti.cli:main',
         ],
     },
 )
