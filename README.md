@@ -29,10 +29,27 @@ binarized masks should be contained within a folder.
 Once you have your input images ready, use the following command line:
 
 ```
-pycellmech --folder_path /path/to/input --csv_file_path /path/to/saving/csv --output_folder /path/to/saving/output/images
+pycellmech --input /path/to/input --csv_file /path/to/saving/csv --output /path/to/saving/output/images --label 's' for single-class and 'm' for multi-class --nifti_folder /path/to/nifti/files
 ```
 
-``csv_file_path`` will reflect the location you would like to save the CSV file, and ``output_folder`` is where the feature visualization map for every image processed will be saved. 
+``csv_file`` will reflect the location you would like to save the CSV file, and ``output`` is where the feature visualization map for every image processed will be saved, ``label``is where you specify whether your features are extracted with single or multiple labels, and if the multi-class option is selected, then the end user need to specify where NifTI files are contained using ``nifti_folder``.
+
+To create NifTI-based metadata for labeling multi-class binary files, the following command lines can be used:
+
+````
+    pycellmech_create_label 
+    --folder_path /path/to/folder/with//masks
+    --output_csv_folder /path/to/save/csv/label 
+    --output_image_folder /path/to/save/labeled/masks
+````
+
+````
+    pycellmech_nifti 
+    --folder_path /path/to/folder/with//masks
+    --input_csv_folder /path/to/extract/csv/labels
+    --nifti_save_dir /path/to/save/nifti/file
+    --label_save_dir /path/to/save/updated/labeled/images
+````
 
 Feature visualization maps select the largest ROI and superimpose the extracted features on the ROI. Thus, this package provides quantitative and qualitative assessments. 
 
