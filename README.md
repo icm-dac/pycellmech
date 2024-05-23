@@ -38,14 +38,14 @@ To create NifTI-based metadata for labeling multi-class binary files, the follow
 
 ````
     pycellmech_create_label 
-    --folder_path /path/to/folder/with//masks
+    --folder_path /path/to/folder/with/masks
     --output_csv_folder /path/to/save/csv/label 
     --output_image_folder /path/to/save/labeled/masks
 ````
 
 ````
     pycellmech_nifti 
-    --folder_path /path/to/folder/with//masks
+    --folder_path /path/to/folder/with/masks
     --input_csv_folder /path/to/extract/csv/labels
     --nifti_save_dir /path/to/save/nifti/file
     --label_save_dir /path/to/save/updated/labeled/images
