@@ -169,12 +169,14 @@ USA, 2017. ACM. ISBN 978-1-4503-5002-0. doi: 10.1145/3083187.3083212.
 
 ## Citation
 ```
-@misc{arslan2024pycellmech,
+@inproceedings{arslan2024pycellmech,
+      url = {https://spie.org/medical-imaging/presentation/PyCellMech--A-shape-based-feature-extraction-pipeline-for-use/13406-83#_=_},
       title={PyCellMech: A shape-based feature extraction pipeline for use in medical and biological studies}, 
       author={Janan Arslan and Henri Chhoa and Ines Khemir and Romain Valabregue and Kurt K. Benke},
-      year={2024},
-      eprint={2405.15567},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+      year={2024},  booktitle = {Medical Imaging 2023: Digital and Computational Pathology},
+      publisher = {SPIE},
+      editor = {Mitra, Jhimli and Colliot, Olivier},
+      year = {2024},
+      month = feb
 }
 ```
