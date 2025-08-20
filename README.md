@@ -1,5 +1,5 @@
 <div align="left">
-  <img width="15%" src="/figures/pyrcellmech_logo_v2.png" alt="pycellmech Logo">
+  <img width="15%" src="/figures/pyrcellmech_logo_v3.png" alt="pycellmech Logo">
 </div>
 
 # PyCellMech
