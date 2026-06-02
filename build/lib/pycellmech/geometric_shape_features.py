@@ -380,7 +380,7 @@ def plot_eccentricity(ax, contour, cx, cy, eccentricity):
 
 def plot_mbr(ax, contour, rect):
     box = cv2.boxPoints(rect)
-    box = np.int0(box)
+    box = box.astype(int)
     
     ax.plot(contour[:, 0], contour[:, 1], 'k-')
     
